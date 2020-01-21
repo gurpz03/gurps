@@ -1,0 +1,51 @@
+body { 
+    margin: 0;
+    background-color: #eee;
+  }
+  
+  .jumbotron { 
+    padding: 30px; /* fills out the jumbotron */
+    background-color: #111;
+  }
+  
+  .container {
+    width: 1170px; /* specify a width */
+    margin: 0 auto;  /* centers the container */
+    padding: 0 15px; /* adds some padding to the left and right*/
+  }
+  
+  .jumbotron .container { 
+    max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+    background-color: #222;
+  }
+  
+  .jumbotron h1 { 
+    text-align: center; /* centers the heading */
+    color: #DDD;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .text-center {
+    text-align: center; /* centers the heading */
+    color: #DDD;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+  
+.btn-primary {
+    text-align: center; /* centers the heading */
+    color: #ffffff;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 1600;
+    text-transform: uppercase;
+    margin: 12em auto;
+  }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2;
+    border-color: #ffffff;
+}
